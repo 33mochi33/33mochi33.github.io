@@ -1,0 +1,47 @@
+h1{color:maroon}
+
+table {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.a{list-style-type: lower-roman;}
+.b{list-style-type: lower-alpha;}
+.c{list-style-type: square;}
+.d{list-style-type: "$";}
+.e{list-style-type: decimal;}
+
+a.nav{text-decoration: none};
+
+a#not-nav:link{
+    color:brown;
+}
+
+a#not-nav:visited{
+    color:plum;
+}
+
+a#not-nav:hover{
+    color:orange;
+}
+
+.a li::first-letter{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.b li::first-letter{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.c li::first-letter{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.d li::first-letter{
+    font-size: 16px;
+    font-weight: bold;
+}
