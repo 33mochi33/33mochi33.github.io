@@ -1,0 +1,6 @@
+/* Style.css content */
+.col-sm {
+    background-color: #FFF8C8; /* A light yellow color for a subtle background */
+    padding: 10px; /* Add some padding to ensure the background color is visible around the content */
+    border-radius: 5px; /* Optional: Adds rounded corners for a softer look */
+}

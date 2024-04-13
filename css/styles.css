@@ -45,3 +45,9 @@ a#not-nav:hover{
     font-size: 16px;
     font-weight: bold;
 }
+
+.col-sm {
+    background-color: #CDCDCD;
+    padding: 20px;
+    transition: transform 0.2s ease-in-out;
+}
