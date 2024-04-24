@@ -270,6 +270,11 @@ var player = new Player([
     title: '一生何求',
     file: '一生何求',
     howl: null
+  },
+  {
+    title: '千千阙歌',
+    file: '千千阙歌',
+    howl: null
   }
 ]);
 
