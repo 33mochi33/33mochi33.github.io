@@ -75,7 +75,7 @@ html {
     left: 50%;
     margin: 0 -170px;
   }
-  .btn {
+  .btn-music {
     position: absolute;
     cursor: pointer;
     opacity: 0.9;
@@ -84,7 +84,7 @@ html {
     -webkit-user-select: none;
     user-select: none;
   }
-  .btn:hover {
+  .btn-music:hover {
     opacity: 1;
   }
   #playBtn {
