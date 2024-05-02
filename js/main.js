@@ -40,30 +40,7 @@ function changeButtonTextAndClass() {
 document.getElementById("button1").addEventListener("click", greetUser);
 document.getElementById("button2").addEventListener("click", changeButtonTextAndClass);
 
-// FIRST FUNCTION: Trivia Question
-function checkTriviaAnswer() {
-    const answerInput = document.getElementById("triviaInput");
-    const answer = answerInput.value.trim();
-    const correctAnswer = "Paris";  // Example correct answer
-    const response = answer === correctAnswer ?
-        `You guessed ${answer}. Correct!` :
-        `You guessed ${answer}. Incorrect! The correct answer is ${correctAnswer}.`;
-    
-    document.getElementById("triviaResponse").innerText = response;
-}
 
-// SECOND FUNCTION: Odd or Even Number Checker
-function checkNumber() {
-    const numInput = document.getElementById("numberInput");
-    const num = parseInt(numInput.value, 10);
-
-    if (!isNaN(num) && num >= 10000 && num <= 99999 && num === Math.floor(num)) {
-        const isEven = num % 2 === 0;
-        document.getElementById("numberResponse").innerText = `The number ${num} is an ${isEven ? 'even' : 'odd'} number.`;
-    } else {
-        document.getElementById("numberResponse").innerText = "Please enter a valid 5-digit integer.";
-    }
-}
 
 // Event listener to check the answer when the Enter key is pressed
 document.addEventListener('DOMContentLoaded', function() {
