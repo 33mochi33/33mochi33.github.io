@@ -9,7 +9,7 @@ function searchArtists() {
         resultsContainer.innerHTML = '';
         data.artists.forEach(artist => {
           const artistLink = document.createElement('a');
-          artistLink.href = `albums.html?artistId=${artist.id}`;  // 这里修改为指向第二页
+          artistLink.href = `Albums.html?artistId=${artist.id}`;  
           artistLink.textContent = artist.name;
           resultsContainer.appendChild(artistLink);
           resultsContainer.appendChild(document.createElement('br'));
