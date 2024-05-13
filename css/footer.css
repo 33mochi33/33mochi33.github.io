@@ -1,0 +1,16 @@
+html, body {
+    height: 100%; /* 设置html和body的高度为100% */
+    margin: 0; /* 去掉默认的margin */
+    padding: 0; /* 去掉默认的padding */
+  }
+  
+  #content {
+    min-height: 100%; /* 设置内容区域的最小高度为100% */
+    display: flex; /* 使用flexbox布局 */
+    flex-direction: column; /* 设置flex方向为垂直方向 */
+  }
+  
+  footer {
+    margin-top: auto; /* 自动将footer推到底部 */
+  }
+  
