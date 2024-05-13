@@ -9,7 +9,7 @@ function searchArtists() {
         resultsContainer.innerHTML = '';
         data.artists.forEach(artist => {
           const artistLink = document.createElement('a');
-          artistLink.href = `Albums.html?artistId=${artist.id}`;  
+          artistLink.href = `./Albums.html?artistId=${artist.id}`;  
           artistLink.textContent = artist.name;
           resultsContainer.appendChild(artistLink);
           resultsContainer.appendChild(document.createElement('br'));
