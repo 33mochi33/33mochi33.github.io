@@ -1,5 +1,3 @@
-h1{color:maroon}
-
 table {
     font-family: "Shadows Into Light", cursive;
     font-weight: 400;
@@ -50,4 +48,34 @@ a#not-nav:hover{
     background-color: #CDCDCD;
     padding: 20px;
     transition: transform 0.2s ease-in-out;
+}
+
+/* 将导航栏背景颜色设置为深红色 */
+.navbar {
+    background-color: maroon !important;
+}
+
+/* 将导航链接的文字颜色设置为白色 */
+.navbar .nav-link {
+    color: white !important;
+}
+
+/* 将导航链接在悬停和聚焦时的颜色设置为浅灰色 */
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: lightgray !important;
+}
+
+/* 将品牌名称的颜色设置为白色 */
+.navbar .navbar-brand {
+    color: white !important;
+}
+
+/* 调整导航切换按钮的颜色 */
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
