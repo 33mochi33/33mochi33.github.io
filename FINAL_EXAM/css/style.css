@@ -1,0 +1,19 @@
+.navbar.navbar.bg-custom {
+    background-color: maroon;
+}
+
+.nav-link {
+    color: gray;
+}
+
+.nav-link.active {
+    color: white !important;
+}
+
+
+.project-column {
+    background-color: #bfc6a4;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
